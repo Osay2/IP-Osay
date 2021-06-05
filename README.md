@@ -5,7 +5,7 @@
 
 # Install
 
-$ git clone
+$ git clone https://github.com/Osay2/IP-Osay
 
 $ cd IP-Osay
 
