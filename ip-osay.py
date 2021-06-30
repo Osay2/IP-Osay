@@ -35,8 +35,8 @@ print(red+"Datos:\n")
 print(reset+" ")
 
 def main():
-	ip_del_vato = "https://ipinfo.io/"+peticion+"/json"
-	url = urllib.request.urlopen(ip_del_vato)
+	ip = "https://ipinfo.io/"+peticion+"/json"
+	url = urllib.request.urlopen(ip)
 	
 	nya = json.loads(url.read())
 	
